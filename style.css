@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 350;
+}
+.navbar-toggler-custom{
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+.centercontainer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}.widthcontainer{
+    display: flex;
+    justify-content: center;
+    padding: 43px 0px;
+}.widthcontainerexplore{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}.paddingcontroller{
+    padding-bottom: 70px;
+}
+.widthcontainersecond{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}.centercontainersecond{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}.imagewidthsecond{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}.Explore{
+    text-decoration: none;
+
+}
+.firstsubcontainer{
+    margin: 0;
+    padding-top: 50px;
+}
+.firstheaderfirst{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}.firstheadersecond{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.imagewidth{
+    width: 100%;
+    height: auto;
+}.subboxcontainer{
+    text-align: center;
+    border: 1px solid gray;
+    height: 150px;
+}.bignumber{
+    font-size: 40px;
+    font-weight: 500;
+}.logo{
+    width: 120px;
+    height: 15px;
+    margin-bottom: 13px;
+}.footerpterm{
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #9b9b9b;
+}.footerpterm a{
+    text-decoration: none;
+}.listedfooter li{
+    list-style: none;
+}.listedfooter li a{
+    text-decoration: none;
+    color: black;
+}.listedfooter{
+    padding: 0;
+}
+
+
+
+.secondcontainerheader{
+    padding: 20px 0;
+}.secondcontainerparagraph{
+    padding-bottom: 20px;
+}.footer{
+    background-color: #fafafb;
+}
+
+.seventhsubheader{
+    padding: 20px 0;
+    font-weight: 400;
+    margin: 0;
+
+}.seventhsubparagraph{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 0;
+    padding-bottom: 50px;
+}.footerfirstpara{
+    margin: 0;
+    
+}
+.fifthsubpara{
+    line-height: 30px;
+}.fifthsubheader{
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}.fifthsubanch{
+    text-decoration: none;
+    padding-bottom: 10px;
+}.imagewidthfifth{
+    width: 83%;
+    height: auto;
+}
