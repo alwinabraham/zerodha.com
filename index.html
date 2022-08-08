@@ -7,6 +7,7 @@
     <title>Zerodha</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container-xl">
@@ -36,7 +37,7 @@
                 <a class="nav-link" href="#">Support</a>
               </li>
               <li class="nav-item">
-                <button class="navbar-toggler-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="navbar-toggler-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="showdropdown()">
                     <span class="navbar-toggler-icon"></span>
                   </button>
               </li>
@@ -45,7 +46,54 @@
         </div>
       </nav>
 <!-------------------------------------------------------------------------------------------------------------------------->
-      <div class="widthcontainer">
+<div id="displaynoner"> 
+<div class="dropdowncontainer">
+      <div class="dropdownwidthadjuster">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="subboxcontainerdropdown">
+            <img src="kite-logo.svg" alt="" class="dropdownimg">
+            <h5 class="dropdownhead">Kite</h5>
+            <p class="samllnumber">
+              Trading platform
+          </p>
+          </div>
+        </div>
+          <div class="col-lg-3 p-0">
+            <div class="subboxcontainerdropdown">
+              <img src="console.svg" alt="" class="dropdownimg">
+              <h5 class="dropdownhead">console</h5>
+                <p class="samllnumber">
+                    backoffice
+                </p>
+            </div>
+          </div>
+          <div class="col-lg-3 p-0">
+            <div class="subboxcontainerdropdown">
+              <img src="kite-connect.svg" alt="" class="dropdownimg">
+              <h5 class="dropdownhead">Kite connect</h5>
+                <p class="samllnumber">
+                    Trading APIs
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-3 p-0">
+          <div class="subboxcontainerdropdown">
+            <img src="coin.svg" alt="" class="dropdownimg">
+            <h5 class="dropdownhead">Coin</h5>
+              <p class="samllnumber">
+                  mutual funds
+              </p>
+          </div>
+      </div>
+     </div>
+    </div>
+     </div>
+    </div>    
+     </div>
+<!------------------------------------------------------------------------------------------------------------------------------>  
+<div class="widthcontainer" onclick="stopdropdown()">
             <div class="centercontainer">
                 <img class="imagewidth" src="landing.png" alt="">
                 <div class="firstsubcontainer">
@@ -56,7 +104,7 @@
             </div>
         </div>
 <!------------------------------------------------------------------------------------------------------------------------->
-<div class="container">
+<div class="container" onclick="stopdropdown()">
     <div class="row">
       <div class="col-lg-6">
             <img class="imagewidth" src="largest-broker.svg" alt="">
