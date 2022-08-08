@@ -129,4 +129,16 @@ body{
 }.imagewidthfifth{
     width: 83%;
     height: auto;
+}.dropdownwidthadjuster{
+    width: 50%;
+}.dropdowncontainer{
+    display: flex;
+    justify-content: end;
+}#displaynoner{
+    background-color: white;
+    display: none;
+    width: 60%;
+    position: absolute;
+    left: 23%;
+    top: 8%;
 }
